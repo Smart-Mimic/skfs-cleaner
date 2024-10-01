@@ -1,0 +1,35 @@
+# Ignore updates and runlog directories
+/updates/
+/runlog/
+skfs-cleaner
+
+# Ignore environment file
+.env
+
+# Ignore build artifacts
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.a
+*.o
+*.so
+*.log
+
+# Ignore Go build artifacts
+/vendor/
+/pkg/
+/coverage.out
+**/*.test
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore Go modules
+go.sum
